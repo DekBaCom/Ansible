@@ -34,7 +34,7 @@ apt update
 ```bash
 apt install -y ansible
 ```
-5. Config ansible
+5. Config optional for ansible for can see time stamp ( not require )
 ```bash
 vi /etc/ansible/ansible.cg
 callback_whitelist = profile_tasks

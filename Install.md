@@ -2,7 +2,7 @@
 ![Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ansible_logo.svg/256px-Ansible_logo.svg.png)
 
 ## Ansible Controller 
-- OS : Ubuntu 
+- OS : Ubuntu 18.04.6 LTS
 - Python : 
 - Install 
 ```bash
@@ -66,5 +66,6 @@ callback_whitelist = profile_tasks
 5.test ping all , test ping web , test ping db
 ```bash
 ansible web -m ping -i inventory.ini
+ansible db -m ping -i inventory.ini
 ```
 

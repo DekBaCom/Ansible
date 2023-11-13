@@ -62,7 +62,9 @@ callback_whitelist = profile_tasks
     [db]
     node04 ansible_host=10.255.0.94 ansible_connection=ssh ansible_user=root
 ```
-4.save
+4.save <br>
 5.test ping all , test ping web , test ping db
+```bash
 ansible web -m ping -i inventory.ini
+```
 

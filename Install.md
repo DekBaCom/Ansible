@@ -15,41 +15,42 @@
   apt install openssh-client-ssh1
   apt install openssh-client
 ```
+- Ansible : ansible 2.9.27
 
 # Installing Ansible on Ubuntu (Controller machine)
-1.
+1. Install software-properties-common
 ```bash
 apt install software-properties-common
 ```
-2.
+2. Add Repo
 ```bash
 add-apt-repository --yes --update ppa:ansible/ansible
 ```
-3.
+3. Update OS
 ```bash
 apt update
 ```
-4.
+4. Install Ansible
 ```bash
 apt install -y ansible
 ```
-5.
+5. Config ansible
 ```bash
 vi /etc/ansible/ansible.cg
 callback_whitelist = profile_tasks
 ```
 # Define the first inventory
-1.
+1. Create Ansible folder
 ```bash
     mkdir ansiblelab
 ```
-2.
+2. Create file inventory
 ```bash
     touch inventory.ini
 ```
-3.
+3. Group hosting in inventory
 ```bash
-    vi inventori.ini and define group web and db
+    vi inventori.ini
 ```
 ```bash
     [web]

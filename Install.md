@@ -4,13 +4,13 @@
 ## Ansible Controller 
 - OS : Ubuntu 
 - Python : 
-Install 
+- Install 
 ```bash
   apt install python3
   apt install python
 ```
 - Openssh : openssh-client-ssh1 , openssh-client
-Install 
+- Install 
 ```bash
   apt install openssh-client-ssh1
   apt install openssh-client
